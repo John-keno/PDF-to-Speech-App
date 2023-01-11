@@ -4,7 +4,8 @@
     package="com.kejotech.pdf2speech">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
 
     <application
         android:allowBackup="true"
@@ -17,16 +18,27 @@
         android:theme="@style/Theme.PDF2Speech"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.PDFSpeech.ActionBar"/>
+        <activity
+            android:name=".StartActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.PDF2Speech.NoActionBar">
+            android:theme="@style/Theme.PDF2Speech.Starting">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:configChanges="orientation|screenSize|screenLayout"
+            android:theme="@style/Theme.PDFSpeech.ActionBar" />
     </application>
 
 </manifest>

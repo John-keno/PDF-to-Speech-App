@@ -1,0 +1,12 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="speechVoice">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+</resources>

@@ -6,7 +6,14 @@
         <entry key="..\:/Users/iwehj/AndroidStudioProjects/PDF2Speech/app/src/main/res/drawable/ic_baseline_play_circle_24.xml" value="0.225" />
         <entry key="..\:/Users/iwehj/AndroidStudioProjects/PDF2Speech/app/src/main/res/drawable/ic_baseline_play_circle_filled_24.xml" value="0.225" />
         <entry key="..\:/Users/iwehj/AndroidStudioProjects/PDF2Speech/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
-        <entry key="..\:/Users/iwehj/AndroidStudioProjects/PDF2Speech/app/src/main/res/layout/content_main.xml" value="0.22" />
+        <entry key="..\:/Users/iwehj/AndroidStudioProjects/PDF2Speech/app/src/main/res/layout/activity_start.xml" value="0.33" />
+        <entry key="..\:/Users/iwehj/AndroidStudioProjects/PDF2Speech/app/src/main/res/layout/activity_welcome.xml" value="0.16" />
+        <entry key="..\:/Users/iwehj/AndroidStudioProjects/PDF2Speech/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/Users/iwehj/AndroidStudioProjects/PDF2Speech/app/src/main/res/layout/settings_activity.xml" value="0.1" />
+        <entry key="..\:/Users/iwehj/AndroidStudioProjects/PDF2Speech/app/src/main/res/menu/menu_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/iwehj/AndroidStudioProjects/PDF2Speech/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1045" />
+        <entry key="..\:/Users/iwehj/AndroidStudioProjects/PDF2Speech/app/src/main/res/xml/header_preferences.xml" value="0.22" />
+        <entry key="..\:/Users/iwehj/AndroidStudioProjects/PDF2Speech/app/src/main/res/xml/root_preferences.xml" value="0.33" />
       </map>
     </option>
   </component>

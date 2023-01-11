@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/PDFReaderVoice">
+
+
+        <ListPreference
+            app:defaultValue="male"
+            app:entries="@array/reply_entries"
+            app:entryValues="@array/speechVoice"
+            app:key="voice"
+            app:title="Voice"
+            app:useSimpleSummaryProvider="true" />
+
+        <SeekBarPreference
+            app:title="Speech Rate"
+            app:min="1"
+            android:max="40"
+            app:key="speech rate"
+            app:showSeekBarValue="true"
+            android:summary="10 is normal speech rate, lower values slow down the speech (5 is half the normal speech rate), greater values accelerate it (20 is twice the normal speech rate)."
+            app:seekBarIncrement="1"
+            app:defaultValue="10"
+            app:updatesContinuously="true"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
